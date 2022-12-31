@@ -1,0 +1,86 @@
+html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #fffaf2;
+}
+
+@font-face {
+    font-family: "atwriter";
+    src: url("./assets/FrutigerLTStd-Light.otf")
+}
+
+h4 {
+    font-family: "atwriter";
+}
+
+.container {
+    width: 50%;
+    max-width: 650px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/768/50/499/snoopy-wallpaper-preview.jpg");
+    padding: 15px;
+    margin: 0 15px;
+    border-radius: 10px;
+    border: #8c9496;
+    border-style: groove;
+}
+
+.form-control {
+    width: 100px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color:#35585f72;
+    color: white;
+    opacity: 0.5;
+    border-radius: 4px;
+    margin-bottom: 9px;
+    border: 1px solid #142b33;
+    font-family: "atwriter";
+}
+
+#myBtn {
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+    margin-top: 15px;
+    font-family: "atwriter";
+    border-radius: 4px;
+    background-color: #cacde0;
+    border: #cacde0; ;
+}
+
+.chart {
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    max-width: 650px;
+}
+
+.modal {
+    display: none; 
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+}
+
+.close {
+    color: #ffffff;
+    float: right;
+    /* font-size: 28px;
+    font-weight: bold; */
+}
+  
+.close:hover,
+.close:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* cursor: pointer; */
+}

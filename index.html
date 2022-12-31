@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chart Js</title>
+</head>
+<body>
+    <div id="form" class="container">
+        <h4>How many hours of sleep do you think you have per week?</h4>
+        <form class="form">
+           <div >
+             <input placeholder="Monday" type="number" class="form-control" id="monday" required>
+           </div>
+           <div>
+               <input  placeholder="Tuesday" type="number" class="form-control" id="tuesday" required>
+           </div>        
+           <div>
+               <input placeholder="Wednesday" type="number" class="form-control" id="wednesday" required>
+           </div>        
+           <div>
+               <input  placeholder="Thursday" type="number" class="form-control" id="thursday" required>
+           </div>        
+           <div>
+               <input placeholder="Friday" type="number" class="form-control" id="friday" required>
+           </div>        
+           <div>
+               <input placeholder="Saturday" type="number" class="form-control" id="saturday" required>
+           </div>        
+           <div>
+               <input placeholder="Sunday" type="number" class="form-control" id="sunday" required>
+           </div>        
+           <button type="submit" id="myBtn">Submit</button>
+       </form>
+   </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
