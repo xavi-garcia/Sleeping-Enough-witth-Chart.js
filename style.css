@@ -57,7 +57,7 @@ h4 {
     border: #cacde0; ;
 }
 
-.chart {
+#myChart {
     position: relative;
     width: 50vw;
     height: 50vh;
@@ -83,4 +83,24 @@ h4 {
     color: rgb(255, 255, 255);
     text-decoration: none;
     /* cursor: pointer; */
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+    .modal {
+        display: none; 
+        position: flex;
+        width: 90vw;
+        height: 90vh;
+        margin-top: 70%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1000px) {
+    
+    .modal {
+        display: none; 
+        position: flex;
+        width: 80%;
+        height: 50vh;
+    }
 }
