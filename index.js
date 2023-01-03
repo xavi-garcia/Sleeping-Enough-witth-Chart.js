@@ -100,6 +100,6 @@ const myChart = new Chart(ctx, config)
 
 function enoughSleep () {
     if(Mon.value < 8 || Tue.value < 8|| Wed.value < 8 || Thu.value < 8 || Fri.value < 8 || Sat.value < 8 || Sun.value < 8){
-        Swal.fire('Remember than a healthy adult should be sleeping around 8 hours a day')
+        Swal.fire('Remember that a healthy adult should be sleeping around 8 hours a day')
     }
 };
